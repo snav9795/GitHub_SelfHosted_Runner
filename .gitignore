@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# Docker
+.dockerignore
+
+# GitHub Runner
+.runner
+.credentials
+_diag/
+_work/
+
+# AWS
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
