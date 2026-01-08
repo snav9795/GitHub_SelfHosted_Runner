@@ -445,15 +445,6 @@ Both entrypoints follow this priority:
 
 ---
 
-## 📚 Additional Resources
-
-- [GitHub Actions Self-hosted Runner Docs](https://docs.github.com/en/actions/hosting-your-own-runners)
-- [GitHub Apps Documentation](https://docs.github.com/en/developers/apps)
-- [Runner Registration API](https://docs.github.com/en/rest/actions/self-hosted-runners)
-- [JWT Authentication](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app)
-
----
-
 ## 🏗️ Architecture Integration
 
 This Docker image is deployed via Terraform on AWS ECS Fargate. The entrypoint selection is controlled at deployment time:

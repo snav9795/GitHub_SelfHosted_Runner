@@ -727,6 +727,8 @@ terraform destroy -var='runner_type=org'
 
 - [GitHub Actions Runner Documentation](https://docs.github.com/en/actions/hosting-your-own-runners)
 - [GitHub Apps Documentation](https://docs.github.com/en/developers/apps)
+- [Generating a JSON Web Token (JWT) for a GitHub App](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-json-web-token-jwt-for-a-github-app)
+- [Registering GitHub Self-Hosted Runners using GitHub App](https://medium.com/@timburkhardt8/registering-github-self-hosted-runners-using-github-app-9cc952ea6ca)
 - [AWS ECS Documentation](https://docs.aws.amazon.com/ecs/)
 - [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)

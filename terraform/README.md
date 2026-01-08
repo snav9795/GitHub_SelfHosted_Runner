@@ -225,10 +225,3 @@ terraform apply -var='runner_type=standalone' -var='github_repository_name=["rep
 terraform import 'aws_ecs_task_definition.github_runner["repo1"]' github-runner-task-def-standalone-repo1
 terraform import 'aws_ecs_service.github_runner["repo1"]' your-ecs-cluster-name/github-runner-standalone-repo1
 ```
-
-## Additional Resources
-
-- [Terraform AWS Provider Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-- [ECS Task Definition Reference](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html)
-- [GitHub Actions Self-hosted Runners](https://docs.github.com/en/actions/hosting-your-own-runners)
-
